@@ -47,7 +47,6 @@ app.get('/fetchNumbers/:numberid', (req, res) => {
     const numberId = req.params.numberid;
     let numbers = [];
 
-    // Dummy data for illustration purposes
     switch (numberId) {
         case 'p':
             numbers = [2, 3, 5, 7];
